@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>
+			JSL 16기 한병찬
+		</title>
+		<script>
+			var str = "가나다라 마바사";
+			var length = str.length;
+			
+			document.write("문자열 길이 : " + length);
+			document.write("<br>");
+			//문자열 자르기
+			var str1 = str.substring(3);
+			document.write("str1 : " + str1 + "<br>");
+			var str2 = str.substring(2,5);
+			document.write("str2 : " + str2 + "<br>");
+			//문자 찾기
+			var find = str.indexOf("하");
+			document.write("find : " + find + "<br>");
+			if (find != -1) {
+				document.write(" 있다. ");
+			} else {
+				document.write(" 없다. ");
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
