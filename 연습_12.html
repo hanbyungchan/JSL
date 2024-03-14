@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>
+			JSL 16기 한병찬
+		</title>
+		<script>
+			var money = 500000;
+			var marry = prompt("결혼 여부 y/n");
+			
+			if (marry == "n"){
+				document.write("생활비는 " + money + "원 입니다.");
+			}
+			if (marry == "y") {
+				money += 300000;
+	
+			var kodomo = prompt("자녀 수");
+				babies = Number(kodomo);
+				money += babies * 100000;
+				
+				document.write("생활비는 " + money + "원 입니다.");
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

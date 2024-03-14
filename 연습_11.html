@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>
+			JSL 16기 한병찬
+		</title>
+		<script>
+			var basic = 5000;
+			var grade = prompt("몇 학년인가요?");
+			
+			if (Number(grade) >= 1 && Number(grade) <= 6) {
+				if (Number(grade) >=3) {
+					basic = basic + 3000;
+				}
+			
+			var gender = prompt("남여 구분 여:f, 남:m");
+			if (gender == "f") {
+				basic = basic + 3000;
+			} else {
+				if (gender == "m") {
+					basic = basic + 2000;
+				}
+			}
+			} else {
+				basic = 0;
+			}
+				document.write("용돈은 " + basic + "원 입니다.");
+			/*var money = 5000;
+			var grade = prompt("몇 학년인가요?");
+			var gender = prompt("남여 구분 여:f , 남:m ?");
+			
+			if (Number(grade) >= 3) {
+					money += + 3000;
+				}
+			if (gender == "f") {
+					money += 3000;
+				}
+			if (gender == "m"){
+					money += + 2000;
+				}
+				document.write("용돈은 " + money + "입니다.");*/
+				
+			/*var gender = prompt("남여 구분 여:f , 남:m ?");
+			var result = "";
+			
+			if (gender == "f") {
+				result = "여성";
+			} else {
+				if (gender == "m") {
+				result = "남성";
+				} else {
+					result = "※오류 오류※";
+				}
+			}
+				document.write(result);*/
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

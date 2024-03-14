@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>
+			JSL 16기 한병찬
+		</title>
+		<script>
+			var avg = prompt("평균 점수 입력");
+			var result = "";
+			
+			if(Number(avg) >= 90) {
+				result = "A";
+			} else {
+				if(Number(avg) >= 80) {
+					result = "B";
+				} else {
+					if (Number(avg) >= 70) {
+						result = "C";
+					} else {
+						result = "D";
+					}
+				}
+			}
+			document.write(result);
+			/*var result = "D입니다.";
+			
+			if (Number(avg) >= 70) {
+				result = "C입니다.";
+			}
+			if (Number(avg) >= 80) {
+				result = "B입니다.";
+			}
+			if (Number(avg) >= 90) {
+				result = "A입니다.";
+			}
+				document.write(result);*/
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
